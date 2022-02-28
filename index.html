@@ -32,16 +32,17 @@
                     <li><a href="#hobbies" class ="nav-text">Hobbies</a>
                     <li><a href="#formacion" class ="nav-text">Formación</a>
                     <li><a href="#proyectos" class ="nav-text">Proyectos</a>
-                    <li><a href="#contacto" class ="nav-text">Contacto</a>
-                    </li>
+                    <li><a class="email" href="#contato">Contacto:
+                    <a href="mailto:miriany.gonzalez@gmail.com?Subject=Interesado%20en%20el%20curso">Email</a>           
+                </li>
                 </nav>
-        </div>
+            </div>
         <main class="container-main">
             <div class="container-titulo">
                 <div class="container-descripcion">
                     <br>
                     <video src="./Portada-Portfolio.mp4" width="640" height="260" autoplay muted loop></video>
-                    <p class="parrafo-perfil">Soy ama de casa, madre de 3 hijos. Empleada con veinticinco años de antigüedad en el H.C.D. Posadas y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
+                    <p class="parrafo-perfil">Soy ama de casa, madre de 3 hijos. Empleada, con más de veinticinco años de antigüedad en el H.C.D. Posadas y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
                     <nav class="container-redes">
                         <a class="nav-text" href="https://github.com/mirianGonzalez" target="_blank">GitHub <img src="./imagenes/github_apps_platform_icon_176071.png"></a>
                         <a class="nav-text" href="https://www.linkedin.com/in/mirian-gonzalez-b5606a34/" target="_blank">LinkedIn <img src="./imagenes/linkedin_socialnetwork_17441.png"></a>
@@ -75,6 +76,34 @@
                     <p class="biografia">b) Entretener y trasmitir con mis páginas algo distinto y novedoso.</p>
                     <br>
                     <p class="biografia">Agradezco infinitamente a todo el equipo de instructores por las clases dictadas excepcionalmente durante mi formación y fundamentalmente a mi familia que me acompañan durante mis largas horas de estudio.</p>
+                    <br>
+                    <p class="firma">
+                        <canvas id="1387cde37eb14eb488334fe38333a772"></canvas></p>
+                    <script>
+                    var images=['data:image/bmp;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAeCAYAAACrI9dtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFySURBVFhH7ZaBcYMwDAA7JTMwAiMwAjOwAiswAiswg3tP0DUVkmxacNK7/h1HYoj0SLbJR3pD/qVK+RtS0zSlruu28x3M87wdxOdscZBqmiYty7J/uxZEiD+O43YMw5D6vt+vfnGQ4sY74EHpwLqu+8gDpPTYNykuWuZXIJXR0EI9fqjUXVIk9qaFzvmrSvH0uvQeUdxQCs5IcW/povix1NlK0ZIqlWrb1t0/NASrIuWtEgsegH0nR9QB2p9dfQQgUUkFCFZ6rydFEfTb4yAF8qrJJSOgFVQTVYpxnceUAqmCt7oIhLi0O/cAkZTGlQIRs5LKOBAYuQgrufe7UEqgIkxqgnDofxFStaiNlpQ3RYqkBALIoWEbQdwTo6rPU8GrEpySyoEsiaiAtFZgXISR86oEl0oJJJV2k5yz7Gl8jhYQ3CJlQVUQ8qrzTDUpoDq6rRZVpUBPeIuXSOVe+NWlWIHRfgbVpSA34V8iBW8p5ZPSJ/RUpxzPtdE9AAAAAElFTkSuQmCC'];
+                    function LoadImagesAndRender(){
+                        var loadedImages=0;
+                        for(var i=0;i<images.length;i++){
+                            var source=images[i];
+                            images[i]=new Image();
+                            images[i].src=source;
+                            images[i].onload=function(){loadedImages++;
+                                if (loadedImages==images.length){
+                                    Render();
+                                }
+                            }
+                            ;
+                        }
+                        }
+                        function Render(){
+                            let a=document.getElementById('1387cde37eb14eb488334fe38333a772');
+                             b=a.getContext('2d');
+                             a.width=37;
+                             a.height=30;
+                             b.drawImage(images[0],0,0,37,30,0,0,37,30);
+                            }
+                            window.addEventListener('onload',LoadImagesAndRender());
+                    </script>
                 </section>
             </div>
             
