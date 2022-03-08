@@ -1,0 +1,33 @@
+/*.sticky {
+    display: flex;
+    align-items: center;
+	justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background-color: #e5cefa;
+    width: 80%
+}
+.container-header{
+    display: flex;
+    justify-content: column;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    margin-top: 0;
+    padding: 0.1rem;
+    align-items: center;
+}
+.nombre-header{
+    display:flex;
+    align-items: center;
+    gap:0.5rem;
+}
+.container-header-nav{
+    display: flex;
+	justify-content: space-between;
+}
+.nav .menu-principal{
+    display: flex;
+    align-items: center;
+	justify-content: space-between
+}
