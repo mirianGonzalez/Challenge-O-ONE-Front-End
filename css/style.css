@@ -46,12 +46,12 @@ header.container-header {
 }
 
 .nav-text {
-
-    text-decoration: none;
+    float: right;
     font-weight: 200;
     color:#3c54a3;
-    
+
 }
+
 .nav-text:visited {
 
     color:#464646;
@@ -65,7 +65,7 @@ header.container-header {
     margin: 0 auto;
     margin-top: 2rem;;
     display: flex;
-    flex-flow:column wrap;
+    flex-flow:column wrap;   
         
 }
 
@@ -73,27 +73,20 @@ header.container-header {
     display:flex;
     margin: 3rem auto;
     align-items: center;
-    justify-content:center;
-   
-     
+    justify-content:center;    
 }
 
 .container-titulo h1 {
-
     font-size:3rem;
     line-height:3rem;
     font-weight: 100;
-
 }
 
 .parrafo-perfil {
-
     font-size: 1.375rem;
     line-height: 1.614375rem;
     font-weight: 400;
-
 }
-
 .container-redes {
 
     display:flex;
@@ -101,13 +94,18 @@ header.container-header {
 }
 
 .container-descripcion {
-    width: 95%;
+    width: 82%;
     margin: auto;
 }
 video{
     justify-content: space-around;
-    width: 85%;
-    align-items: center;
+    width: 100%;
+}
+#video:hover {
+    transform: translate(350px,0);
+    -webkit-transform: translate(350px,0); /** Chrome & Safari **/
+    -o-transform: translate(350px,0); /** Opera **/
+    -moz-transform: translate(350px,0); /** Firefox **/
 }
 
 .container-sobre-mi {
@@ -310,6 +308,10 @@ video{
     gap:0.5rem;
     
 }
+.imagen-formulario{
+        top: 43%;
+        left: 44%;
+}
 
 .conjunto-formulario {
     flex: none;
@@ -395,12 +397,8 @@ left: 0px;
 
         font-size:8px;
     }
-
-
       .container-main, .seccion-sobre-mi, .container-skills, .container-hobbies, .seccion-formacion, .container-proyectos, .container-footer {
-
         width:90%;
-
     }
     
     .parrafo-perfil {
@@ -412,6 +410,7 @@ left: 0px;
 
         font-size:1.4rem;
         line-height:2rem;
+
     }
 
 }
@@ -423,8 +422,8 @@ left: 0px;
         font-size:6px;
     }
 
-
-      .container-main, .seccion-sobre-mi, .container-skills, .container-hobbies, .seccion-formacion, .container-proyectos, .container-footer {
+     
+    .container-main, .seccion-sobre-mi, .container-skills, .container-hobbies, .seccion-formacion, .container-proyectos, .container-footer {
 
         width:90%;
 

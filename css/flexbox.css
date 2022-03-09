@@ -1,33 +1,27 @@
-/*.sticky {
-    display: flex;
+.container-main{
     align-items: center;
-	justify-content: space-between;
-    position: fixed;
-    top: 0;
-    background-color: #e5cefa;
-    width: 80%
-}
-.container-header{
     display: flex;
-    justify-content: column;
-    width: 100%;
-    max-width: 1920px;
-    margin: 0 auto;
-    margin-top: 0;
-    padding: 0.1rem;
-    align-items: center;
-}
-.nombre-header{
-    display:flex;
-    align-items: center;
-    gap:0.5rem;
-}
-.container-header-nav{
+    justify-content: space-between;
+    flex-grow: 1;
+    flex: 1 1 70%;
+  }
+.container-descripcion{
     display: flex;
-	justify-content: space-between;
+    flex-direction: column;
 }
-.nav .menu-principal{
-    display: flex;
-    align-items: center;
-	justify-content: space-between
+.parrafo-perfil{
+  text-align: center;
+  flex-direction: column;
+  text-decoration: underline overline violet;
+  justify-content: space-between;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+nav ul {
+display: flex;
+justify-content: space-around;
 }
