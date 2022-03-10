@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Sansita+Swashed:wght@300 & display=swap');
 html {
     background-color: #F5F5F5;
     scroll-behavior: smooth;
@@ -74,10 +75,11 @@ html {
 }
 
 .container-titulo {
+    width: 69%;
     display:flex;
     margin: 3rem auto;
     align-items: baseline;
-    justify-content: space-around;
+    justify-content: space-between;
      
 }
 
@@ -157,6 +159,7 @@ video{
 .biografia {
 
     line-height: 1.17375rem;
+    font-family:  'Sansita' ,sans-serif
 }
 
 .conjunto-skills, .conjunto-hobbies {
