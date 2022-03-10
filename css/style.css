@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2? family= Sansita+Swashed:wght@300 & display=swap');
+
 html {
     background-color: #F5F5F5;
     scroll-behavior: smooth;
@@ -487,14 +485,10 @@ border-radius:0.5rem;
         font-size:1.45rem;
     }
 
-
-
-  
-  .imagen-formulario {
+    .imagen-formulario {
 
       display:none;
-  }
-
+    }
 
     .container-header {
 
@@ -529,12 +523,180 @@ border-radius:0.5rem;
 
     .header-container {
       position: fixed;
-      z-index: 999; 
+      z-index: 500; 
       background: #1c2454; 
     }
   
     .sticky {
       top: 85px; 
+    }
+    .container-header {
+
+        width: 85%;
+        max-width: 500px;
+        margin: 0 auto;
+        margin-top: 0;
+        padding: 0;
+        display: block;
+        align-items: center;    
+    }
+    
+    .menu-principal {
+    
+        margin-left:auto;
+        display:block;
+        gap:0;
+     }
+    
+    
+    .nombre-header {
+    
+        display:block;
+        align-items: center;
+        gap:0.5rem;
+    }
+    
+    .nombre {
+        
+        font-size:1rem;
+    }
+    
+    .nav-text {
+    
+        text-decoration: none;
+        font-weight: 400;
+        color:#464646;
+        
+    }
+
+    .nav-text:visited {
+    
+        color:#464646;
+    
+    }
+    
+    .container-main, .seccion-sobre-mi, .container-skills, .container-hobbies, .seccion-formacion, .container-proyectos, .container-footer {
+    
+        width: 85%;
+        max-width: 500px;
+        margin: 0 auto;
+        margin-top: 0;
+        display: block;
+        flex-flow:column wrap;
+            
+    }
+    
+    .container-titulo {
+        width: 69%;
+        display: block;
+        margin: 0rem auto;
+        align-items: baseline;
+        justify-content: space-between;
+         
+    }
+    
+    .container-titulo h1 {
+    
+        font-size:3.25rem;
+        line-height:3.815625rem;
+        font-weight: 400;
+    
+    }.container-header {
+        width: 85%;
+        max-width: 500px;
+        margin: 0 auto;
+        margin-top: 0;
+        padding: 0;
+        display: block;
+        align-items: center;
+    }
+
+    .menu-principal {
+        margin-left:auto;
+        display: block;
+        gap:0;
+    }
+
+    .nombre-header {
+        display:block;
+        align-items: center;
+        gap:0;
+    }
+
+    .nombre {
+        font-size:1rem;
+    }
+
+    .nav-text {
+        text-decoration: none;
+        font-weight: 400;
+        color:#464646; 
+    }
+
+    .nav-text:visited {
+        color:#464646;
+    }
+
+    .container-main, .seccion-sobre-mi, .container-skills, .container-hobbies, .seccion-formacion, .container-proyectos, .container-footer {
+        width: 65%;
+        max-width: 400px;
+        margin: 0 auto;
+        margin-top: 0;
+        display: block;
+        flex-flow:column wrap;
+        
+    }
+
+    .container-titulo {
+        width: 69%;
+        display:block;
+        margin: 0 auto;
+        align-items: baseline;
+        justify-content: space-between;   
+    }
+
+    .container-titulo h1 {
+        font-size:3.25rem;
+        line-height:3.815625rem;
+        font-weight: 400;
+    }
+
+    video{
+        justify-content: space-between;
+        width: 100%;
+        height: max-content;
+        text-align: justify;
+        padding: 0;
+    }
+
+    #video:hover {
+        transform: translate(350px,0);
+        -webkit-transform: translate(350px,0); /** Chrome & Safari **/
+        -o-transform: translate(350px,0); /** Opera **/
+        -moz-transform: translate(350px,0); /** Firefox **/
+    }
+    .perfil {
+        width: 10rem;
+        height: 10rem;
+        border-radius:10rem;
+
+    }
+
+    .parrafo-perfil {
+        font-size: 1.375rem;
+        line-height: 1.614375rem;
+        font-weight: 400;
+    }
+    .container-redes {
+        display: block;
+        align-items: center;
+        flex-grow: 0rem;
+    }
+
+    .container-descripcion {
+        display:block;
+        align-items: flex-start;
+        flex-wrap: wrap;
     }
   }
 
